@@ -1,0 +1,8 @@
+.padawan-slider {
+  position: relative;
+}
+
+.padawan-slider > img {
+  opacity: 0;
+  position: absolute;
+}

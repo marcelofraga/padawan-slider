@@ -1,3 +1,3 @@
 window.onload = function() {
-  // code
+  var padawan = new PadawanSlider('slider');
 };
