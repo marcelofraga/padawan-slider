@@ -33,6 +33,7 @@
 }
 .padawan-slider > .padawan-control-nav > li > a:hover { background: #6fa2ff; }
 .padawan-slider > .padawan-control-nav > li > a.active {
+  cursor: text;
   background: #333;
   border-color: #aaa;
 }

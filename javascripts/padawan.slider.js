@@ -48,6 +48,11 @@ function PadawanSlider(element) {
     control.onclick = function(event) {
       event.preventDefault();
 
+      // Prevents call the link active
+      if (controlNavLinks[this.rel].className == 'active') {
+        return;
+      }
+
       // Show slide
       children[this.rel].style.opacity = 1;
 
